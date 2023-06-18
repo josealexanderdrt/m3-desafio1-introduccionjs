@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{font-family: buda, 'roboto', Times, serif;
+margin: 0
+;}
+
+.subcontenedor{
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100vh;
+
+    
+
+
+}
+
+    .contenido-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        line-height: 50px;
+        border: 1px solid black;
+        padding:30px;
+        margin-right: 20px;
+        
+        
+    }
+
+
+
+            .img-producto{ height: 250px;}
+    
+             .contenido-1 input { 
+
+             margin: 10px;
+             line-height: 30px;
+             width: 60%;
+    
+             }
+
+
+            .contenido-1 button{
+            margin: 10px;
+            width: 40%;
+            font-size: 15px;
+            }
+
+    .contenido-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        line-height: 50px;
+        border: 1px solid black;
+        padding:30px;
+
+    }
+
+            .botones-resumen{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                justify-content: space-around;
+                padding: 10px;
+                
+
+
+            }
+         
+            .contenido-2 button{
+               
+               width: 50%;
+               font-size: 15px;
+               margin: 15px;
+                }
+
+        

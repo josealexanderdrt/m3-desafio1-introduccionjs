@@ -4,23 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introducción a Javascript</title>
+    <title>The Volkswagen Roller</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
     
 </head>
 <body>
-    <p id="p-1"> 0 </p>
-    <button onclick="
-    parrafo = document.querySelector('#p-1')
-    cuenta = Number(parrafo.innerHTML)
-    cuenta = cuenta + 1
-    parrafo.innerHTML = cuenta
-    "> Incrementar </button>
-    <button onclick="
-    parrafo = document.querySelector('#p-1')
-    cuenta = Number(parrafo.innerHTML)
-    cuenta = cuenta - 1
-    parrafo.innerHTML = cuenta
-    "> restarr </button>
+    
+    <div class="contenedor">
+
+        <div class="subcontenedor">
+
+            <div class="contenido-1">
+
+                <img src="assets/imgs/volkswagen_roller_1-removebg-preview (1).png" alt="Volkswagen-Rolller" class="img-producto">
+
+                <h3>Volkswagen Roller</h3>
+                
+                <p>Patines de movilidad urbana para trasladarse de manera efectiva y versatil.</p>
+
+                <input
+                    type="text" 
+                    placeholder="Cantidad"
+                    id="inCantidad"
+                    min="1"
+                    required
+                    />
+                <input 
+                    type="text" 
+                    placeholder="Color"
+                    id="inColor"
+                    required
+                    />
+
+                <h2>Precio: 875.000 </h2>
+
+                
+                <div class="botones-resumen">
+                <button
+                    id="calcularTotal">
+                    Calcular
+                </button>
+
+                <button
+                    id="limpiar">
+                    Limpiar
+                </button>
+                </div>
+
+
+            </div>
+
+
+            <div class="contenido-2">
+
+                <h3>Resumen de la compra </h3>
+                <p>Total: $ <span id="resumenTotal">0</span></p>
+                <p>Cantidad: <span id="resumenCantidad">0</span></p>
+                <p>Color </p>
+                <div id="resumenColor" class="circulo">soy color</div>
+
+        
+                <button> Comprar </button>
+                </div>
+
+               
+
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+    
+
+
     
     <script src="assets/js/script.js" ></script>
     
