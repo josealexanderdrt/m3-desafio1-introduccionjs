@@ -18,8 +18,8 @@ button.addEventListener("click", () =>{
 let limpiar = document.querySelector("#limpiar")
 
 limpiar.addEventListener("click", () =>{document.querySelector("#resumenTotal").innerHTML= 0;
-document.querySelector("#resumenCantidad").innerHTML= "0";
-document.querySelector("#resumenColor").innerHTML= "";
+document.querySelector("#resumenCantidad").innerHTML= 0;
+document.querySelector("#resumenColor").style.backgroundColor= "black";
 document.querySelector("#inColor").value= "";
 document.querySelector("#inCantidad").value= "";
 

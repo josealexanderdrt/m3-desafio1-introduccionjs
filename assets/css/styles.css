@@ -25,9 +25,10 @@ margin: 0
         text-align: center;
         justify-content: center;
         line-height: 50px;
-        border: 1px solid black;
+        border-radius: 800px 0 400px 0;
         padding:30px;
         margin-right: 20px;
+        background-color: rgb(214, 212, 212);
         
         
     }
@@ -58,7 +59,9 @@ margin: 0
         text-align: center;
         justify-content: center;
         line-height: 50px;
-        border: 1px solid black;
+        border-right: 20px solid gray;
+        border-bottom: 20px solid gray;;
+        border-radius: 0 600px 600px 600px;
         padding:30px;
 
     }
@@ -70,6 +73,7 @@ margin: 0
                 justify-content: space-around;
                 padding: 10px;
                 
+                
 
 
             }
@@ -79,6 +83,34 @@ margin: 0
                width: 50%;
                font-size: 15px;
                margin: 15px;
+
                 }
 
+
+            .muestracolor{
+            background-color: black;
+            height: 20px;
+            width: 20px;
+            margin-left: 10px;
+            border-radius: 5px;
+        }
+
+            .caja-color{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                    
+            }
         
+            button{
+                border-radius: 10px;
+                cursor: pointer;
+                background-color: #464344c5;
+                font-size: 30px;
+                color: #fff;
+                border-right: 5px solid rgba(240, 238, 135, 0.993);
+
+            }
+
+            button:hover{transform: scale(1.1);}
