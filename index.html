@@ -8,8 +8,20 @@
     
 </head>
 <body>
-    <h1>Solo tengo un H1</h1>
-    <p></p>
+    <p id="p-1"> 0 </p>
+    <button onclick="
+    parrafo = document.querySelector('#p-1')
+    cuenta = Number(parrafo.innerHTML)
+    cuenta = cuenta + 1
+    parrafo.innerHTML = cuenta
+    "> Incrementar </button>
+    <button onclick="
+    parrafo = document.querySelector('#p-1')
+    cuenta = Number(parrafo.innerHTML)
+    cuenta = cuenta - 1
+    parrafo.innerHTML = cuenta
+    "> restarr </button>
+    
     <script src="assets/js/script.js" ></script>
     
     </body>
